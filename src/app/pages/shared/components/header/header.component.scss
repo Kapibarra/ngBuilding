@@ -1,0 +1,59 @@
+.header__wrapper {
+  width: 100%;
+  max-width: 1400px;
+  margin: 0 auto;
+  .header {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    &__logo {
+      img {
+        // стили для логотипа
+      }
+    }
+
+    &__navigation {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: nowrap;
+      gap: 10px;
+      .header__navigation-item {
+        color: rgb(0, 0, 0);
+        font-family: Jura;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 120%;
+        letter-spacing: 0%;
+        text-align: left;
+        text-transform: uppercase;
+        text-decoration: none;
+        transition: color 0.3s ease; /* добавляем плавный переход для цвета текста */
+        &:hover {
+          transition: color 0.3s ease; /* добавляем плавный переход для цвета текста */
+          color: rgb(114, 114, 114); /* изменяем цвет текста при наведении */
+        }
+      }
+    }
+
+    &__phone {
+      a {
+        color: rgb(0, 0, 0);
+        font-family: Jura;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 120%;
+        letter-spacing: 0%;
+        text-align: left;
+        text-transform: uppercase;
+        text-decoration: none;
+        transition: color 0.3s ease; /* добавляем плавный переход для цвета текста */
+        &:hover {
+          transition: color 0.3s ease; /* добавляем плавный переход для цвета текста */
+          color: rgb(114, 114, 114); /* изменяем цвет текста при наведении */
+        }
+      }
+    }
+  }
+}
