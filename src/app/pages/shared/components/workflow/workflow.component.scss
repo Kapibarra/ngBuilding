@@ -10,16 +10,25 @@
     line-height: 142.02%;
     letter-spacing: 20%;
     text-align: left;
+    margin-bottom: 20px;
   }
   .workflow {
     &__item {
       border-bottom: 3px solid rgb(240, 240, 240);
       display: flex;
+      background: rgb(255, 255, 255);
       flex-direction: row;
       flex-wrap: wrap;
       gap: 50px;
-
       align-items: center;
+      transition: all 0.3s ease-in-out;
+      border-radius: 0px;
+      &:hover {
+        transition: all 0.3s ease-in-out;
+        background: rgb(211, 255, 225);
+        border-radius: 12px;
+        cursor: pointer;
+      }
       .workflow__id {
         color: rgb(0, 142, 45);
         font-family: Jura;
@@ -63,6 +72,7 @@
 }
 
 .workflow__button {
+  margin-top: 40px;
   width: 242px;
   max-height: 65px;
   /* Auto layout */
@@ -80,5 +90,14 @@
   line-height: 19px;
   letter-spacing: 0%;
   text-align: center;
+  transition: all 0.3s ease-in-out;
   text-transform: uppercase;
+  border: 1px solid rgb(0, 142, 45);
+  &:hover {
+    transition: all 0.3s ease-in-out;
+    color: black;
+    background: rgb(201, 255, 218);
+    border-radius: 12px;
+    cursor: pointer;
+  }
 }

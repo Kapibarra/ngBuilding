@@ -41,12 +41,13 @@
             font-family: Jura;
             font-size: 14px;
             font-weight: 500;
-            line-height: 120%;
+            line-height: 150%;
             letter-spacing: 0%;
             text-align: left;
             text-transform: uppercase;
             /* Gray stroke */
             border-bottom: 0.75px solid rgb(185, 179, 179);
+            margin-top: 10px;
           }
         }
 
@@ -69,6 +70,15 @@
           letter-spacing: 0%;
           text-align: center;
           text-transform: uppercase;
+          border: 1px solid rgb(0, 142, 45);
+          transition: all 0.3s ease-in-out;
+          &:hover {
+            transition: all 0.3s ease-in-out;
+            color: black;
+            background: rgb(201, 255, 218);
+            border-radius: 12px;
+            cursor: pointer;
+          }
         }
       }
     }
