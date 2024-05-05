@@ -69,7 +69,7 @@
         color: rgb(255, 255, 255);
         font-family: Jura;
         font-size: 14px;
-        font-weight: 500;
+        font-weight: 8+ 00;
         line-height: 16px;
         letter-spacing: 0%;
         text-align: left;
@@ -79,6 +79,7 @@
         background: rgb(0, 142, 45);
         border: 1px solid rgb(0, 142, 45);
         transition: all 0.3s ease-in-out;
+        text-transform: uppercase;
         &:hover {
           transition: all 0.3s ease-in-out;
           color: black;

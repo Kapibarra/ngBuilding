@@ -19,6 +19,7 @@ import { MainPageComponent } from './pages/main-page/main-page.component';
 import { AnnexComponent } from './pages/annex/annex.component';
 import { PricingComponent } from './pages/pricing/pricing.component';
 import { Project01Component } from './pages/project01/project01.component';
+import { CursorComponent } from './pages/shared/components/cursor/cursor.component';
 
 @NgModule({
   declarations: [
@@ -38,7 +39,8 @@ import { Project01Component } from './pages/project01/project01.component';
     MainPageComponent,
     AnnexComponent,
     PricingComponent,
-    Project01Component
+    Project01Component,
+    CursorComponent
   ],
   imports: [
     BrowserModule,
