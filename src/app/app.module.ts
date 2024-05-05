@@ -13,6 +13,8 @@ import { AboutComponent } from './pages/shared/components/about/about.component'
 import { MainservicesComponent } from './pages/shared/components/mainservices/mainservices.component';
 import { ContactsComponent } from './pages/shared/components/contacts/contacts.component';
 import { FooterComponent } from './pages/shared/components/footer/footer.component';
+import { PriceComponent } from './pages/shared/components/price/price.component';
+import { GalleryComponent } from './pages/shared/components/gallery/gallery.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +28,9 @@ import { FooterComponent } from './pages/shared/components/footer/footer.compone
     AboutComponent,
     MainservicesComponent,
     ContactsComponent,
-    FooterComponent
+    FooterComponent,
+    PriceComponent,
+    GalleryComponent
   ],
   imports: [
     BrowserModule,
