@@ -20,7 +20,10 @@ import { AnnexComponent } from './pages/annex/annex.component';
 import { PricingComponent } from './pages/pricing/pricing.component';
 import { Project01Component } from './pages/project01/project01.component';
 import { CursorComponent } from './pages/shared/components/cursor/cursor.component';
-
+import { DialogComponent } from './pages/shared/components/dialog/dialog.component';
+import { DialogModule } from 'primeng/dialog';
+import { ButtonModule } from 'primeng/button';
+import { InputTextModule } from 'primeng/inputtext';
 @NgModule({
   declarations: [
     AppComponent,
@@ -40,13 +43,17 @@ import { CursorComponent } from './pages/shared/components/cursor/cursor.compone
     AnnexComponent,
     PricingComponent,
     Project01Component,
-    CursorComponent
+    CursorComponent,
+    DialogComponent,
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    DialogModule,
+    ButtonModule,
+    InputTextModule,
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
