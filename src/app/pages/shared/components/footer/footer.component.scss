@@ -1,0 +1,58 @@
+.footer__wrapper {
+  /* black */
+  background: rgb(15, 16, 12);
+  width: 100%;
+  .footer {
+    width: 100%;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: space-between;
+    & .footer__logo {
+      img {
+        // стили для логотипа
+      }
+    }
+
+    & .footer__navigation {
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      gap: 5px;
+      align-items: flex-start;
+      .footer__navigation-item {
+        color: rgb(254, 255, 252);
+        font-family: Jura;
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 22px;
+        letter-spacing: 20%;
+        text-align: center;
+        text-decoration: none;
+      }
+    }
+
+    & .contacts__info {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      align-items: flex-start;
+      & .contacts__link {
+        color: rgb(254, 255, 252);
+        font-family: Jura;
+        font-size: 17px;
+        font-weight: 500;
+        line-height: 20px;
+        letter-spacing: 20%;
+        text-align: center;
+        text-transform: uppercase;
+        text-decoration: none;
+      }
+    }
+  }
+}
