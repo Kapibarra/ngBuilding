@@ -1,0 +1,96 @@
+.contacts__wrapper {
+  width: 100%;
+  max-width: 1400px;
+  margin: 0 auto;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  .contacts {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    & .contacts__links {
+      & .contacts__title {
+        color: rgb(41, 44, 54);
+        font-family: Jura;
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 24px;
+        letter-spacing: 20%;
+        text-align: left;
+      }
+
+      .links__inner-wrapper {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 10px;
+        align-items: center;
+        margin-bottom: 20px;
+        margin-top: 20px;
+        .phone {
+          color: rgb(41, 44, 54);
+          font-family: Jura;
+          font-size: 18px;
+          font-weight: 500;
+          line-height: 21px;
+          letter-spacing: 0%;
+          text-align: left;
+          box-sizing: border-box;
+          border: 1px solid rgb(41, 44, 54);
+          border-radius: 30px;
+          padding: 12px 30px 12px 30px;
+
+          & img {
+            width: 10px;
+          }
+        }
+        & .tg img {
+          width: 30px;
+          height: 30px;
+        }
+        & .wa img {
+          width: 30px;
+          height: 30px;
+        }
+
+        .phone img,
+        .tg img,
+        .wa img {
+        }
+      }
+
+      .contacts__button {
+        border-radius: 30px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        color: rgb(255, 255, 255);
+        font-family: Jura;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 16px;
+        letter-spacing: 0%;
+        text-align: left;
+        width: 380px;
+        height: 50px;
+        backdrop-filter: blur(3.1px);
+        background: rgb(0, 142, 45);
+        border: 1px solid rgb(0, 142, 45);
+        transition: all 0.3s ease-in-out;
+        &:hover {
+          transition: all 0.3s ease-in-out;
+          color: black;
+          background: rgb(201, 255, 218);
+          border-radius: 12px;
+          cursor: pointer;
+        }
+      }
+    }
+
+    & .contacts__map {
+      // стили для карты
+    }
+  }
+}
