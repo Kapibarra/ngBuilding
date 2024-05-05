@@ -15,8 +15,10 @@
     margin-bottom: 30px;
   }
   .price {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
     & .price__item {
-      background-image: url(../../../../../assets/icons/pricebg01.png);
       background-repeat: no-repeat;
       min-height: 200px;
       display: flex;
@@ -24,6 +26,7 @@
       justify-content: space-between;
       flex-wrap: wrap;
       align-items: center;
+
       .price__item-title {
         color: rgb(0, 0, 0);
         font-family: Jura;
@@ -86,4 +89,13 @@
     border-radius: 12px;
     cursor: pointer;
   }
+}
+.bg01 {
+  background-image: url(../../../../../assets/icons/pricebg01.png);
+}
+.bg02 {
+  background-image: url(../../../../../assets/icons/pricebg02.png);
+}
+.bg03 {
+  background-image: url(../../../../../assets/icons/pricebg03.png);
 }
