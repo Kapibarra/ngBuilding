@@ -15,6 +15,10 @@ import { ContactsComponent } from './pages/shared/components/contacts/contacts.c
 import { FooterComponent } from './pages/shared/components/footer/footer.component';
 import { PriceComponent } from './pages/shared/components/price/price.component';
 import { GalleryComponent } from './pages/shared/components/gallery/gallery.component';
+import { MainPageComponent } from './pages/main-page/main-page.component';
+import { AnnexComponent } from './pages/annex/annex.component';
+import { PricingComponent } from './pages/pricing/pricing.component';
+import { Project01Component } from './pages/project01/project01.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +34,11 @@ import { GalleryComponent } from './pages/shared/components/gallery/gallery.comp
     ContactsComponent,
     FooterComponent,
     PriceComponent,
-    GalleryComponent
+    GalleryComponent,
+    MainPageComponent,
+    AnnexComponent,
+    PricingComponent,
+    Project01Component
   ],
   imports: [
     BrowserModule,
