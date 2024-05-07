@@ -24,6 +24,12 @@ import { DialogComponent } from './pages/shared/components/dialog/dialog.compone
 import { DialogModule } from 'primeng/dialog';
 import { ButtonModule } from 'primeng/button';
 import { InputTextModule } from 'primeng/inputtext';
+import { CarouselModule } from 'primeng/carousel';
+import { WorkflowgalleryComponent } from './pages/shared/components/workflowgallery/workflowgallery.component';
+import { Project02Component } from './pages/project02/project02.component';
+import { Project03Component } from './pages/project03/project03.component';
+import { Project04Component } from './pages/project04/project04.component';
+import { Project05Component } from './pages/project05/project05.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -45,6 +51,11 @@ import { InputTextModule } from 'primeng/inputtext';
     Project01Component,
     CursorComponent,
     DialogComponent,
+    WorkflowgalleryComponent,
+    Project02Component,
+    Project03Component,
+    Project04Component,
+    Project05Component,
   ],
   imports: [
     BrowserModule,
@@ -52,6 +63,7 @@ import { InputTextModule } from 'primeng/inputtext';
     DialogModule,
     ButtonModule,
     InputTextModule,
+    CarouselModule,
   ],
   providers: [],
   bootstrap: [AppComponent],

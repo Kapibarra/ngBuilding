@@ -1,4 +1,9 @@
 /* You can add global styles to this file, and also import other style files */
+/* You can add global styles to this file, and also import other style files */
+
+@import "primeng/resources/primeng.css";
+@import "primeng/resources/themes/luna-green/theme.css";
+@import "primeicons/primeicons.css";
 body {
   cursor: url("assets/icons/cursor.cur"), auto;
 }

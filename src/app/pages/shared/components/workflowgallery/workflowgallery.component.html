@@ -1,0 +1,66 @@
+<div class="workflow__gallery-wrapper">
+  <div class="gallery">
+    <p-carousel
+      [value]="gallery01"
+      [numVisible]="3"
+      [numScroll]="1"
+      [autoplayInterval]="3000"
+      [responsiveOptions]="responsiveOptions"
+    >
+      <ng-template pTemplate="header">
+        <div class="gallery__title">Строительство пристроек</div>
+      </ng-template>
+      <ng-template let-product pTemplate="item">
+        <div class="product-item">
+          <div class="product-item-content">
+            <div class="mb-3">
+              <img src="{{ product.imageSrc }}" class="product-image" />
+            </div>
+          </div>
+        </div>
+      </ng-template>
+    </p-carousel>
+
+    <p-carousel
+      [value]="gallery02"
+      [numVisible]="3"
+      [numScroll]="1"
+      [autoplayInterval]="3000"
+      [responsiveOptions]="responsiveOptions"
+    >
+      <ng-template pTemplate="header">
+        <div class="gallery__title">Строительство домов</div>
+      </ng-template>
+      <ng-template let-product pTemplate="item">
+        <div class="product-item">
+          <div class="product-item-content">
+            <div class="mb-3">
+              <img src="{{ product.imageSrc }}" class="product-image" />
+            </div>
+          </div>
+        </div>
+      </ng-template>
+    </p-carousel>
+
+    <p-carousel
+      [value]="gallery03"
+      [numVisible]="3"
+      [numScroll]="1"
+      [autoplayInterval]="3000"
+      [responsiveOptions]="responsiveOptions"
+    >
+      <ng-template pTemplate="header">
+        <div class="gallery__title">Внутренняя оттелка</div>
+      </ng-template>
+      <ng-template let-product pTemplate="item">
+        <div class="product-item">
+          <div class="product-item-content">
+            <div class="mb-3">
+              <img src="{{ product.imageSrc }}" class="product-image" />
+            </div>
+          </div>
+        </div>
+      </ng-template>
+    </p-carousel>
+  </div>
+</div>

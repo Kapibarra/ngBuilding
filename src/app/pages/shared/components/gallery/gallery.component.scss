@@ -7,16 +7,20 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    gap: 30px;
+    gap: 50px;
     justify-content: flex-start;
     & .gallery__item {
       width: 100%;
       max-width: 420px;
       border-radius: 20px;
+      object-fit: cover;
+      text-decoration: none;
       img {
         width: 100%;
         max-width: 420px;
         border-radius: 20px;
+        max-height: 280px;
+        object-fit: cover;
         transition: all 0.3s ease-in-out;
         box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0), 0 6px 20px 0 rgba(0, 0, 0, 0);
         &:hover {
@@ -32,6 +36,16 @@
         font-family: Jura;
         font-size: 24px;
         font-weight: 700;
+        line-height: 120%;
+        letter-spacing: 20%;
+        text-align: left;
+        text-transform: uppercase;
+      }
+      & .item__subtitle {
+        color: rgb(95, 95, 95);
+        font-family: Jura;
+        font-size: 16px;
+        font-weight: 500;
         line-height: 120%;
         letter-spacing: 20%;
         text-align: left;

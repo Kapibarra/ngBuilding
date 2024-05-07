@@ -1,1 +1,26 @@
-<p>project01 works!</p>
+<div class="project__wrapper">
+  <div class="project">
+    <p-carousel
+      [value]="project01"
+      [numVisible]="3"
+      [numScroll]="1"
+      [autoplayInterval]="3000"
+      [responsiveOptions]="responsiveOptions"
+    >
+      <ng-template pTemplate="header">
+        <div class="project__title">Поэтическая ул, коттедж 150м</div>
+      </ng-template>
+      <ng-template let-product pTemplate="item">
+        <div class="product-item">
+          <div class="product-item-content">
+            <div class="mb-3">
+              <img src="{{ product.imageSrc }}" class="product-image" />
+            </div>
+          </div>
+        </div>
+      </ng-template>
+    </p-carousel>
+    <div class="project__title">Хотите так же?</div>
+    <app-contacts></app-contacts>
+  </div>
+</div>
