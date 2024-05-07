@@ -16,6 +16,28 @@
   помещение или гараж. Проект обсуждается индивидуально. На все строения
   предоставляется гарантия.
 </p>
-<app-gallery></app-gallery>
+<div class="gallery">
+  <p-carousel
+    [value]="gallery01"
+    [numVisible]="3"
+    [numScroll]="1"
+    [autoplayInterval]="3000"
+    [responsiveOptions]="responsiveOptions"
+  >
+    <ng-template pTemplate="header">
+      <div class="gallery__title">Строительство пристроек</div>
+    </ng-template>
+    <ng-template let-product pTemplate="item">
+      <div class="product-item">
+        <div class="product-item-content">
+          <div class="mb-3">
+            <img src="{{ product.imageSrc }}" class="product-image" />
+          </div>
+        </div>
+      </div>
+    </ng-template>
+  </p-carousel>
+</div>
+
 <app-price></app-price>
 <app-contacts></app-contacts>

@@ -122,3 +122,43 @@
     }
   }
 }
+.services__item-custom {
+  box-sizing: border-box;
+  border: 1px solid rgb(169, 178, 182);
+  border-radius: 24px;
+  padding: 40px 25px;
+  background: rgb(201, 255, 218);
+  width: 100%;
+  max-width: 420px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  & .item__title {
+    color: rgb(15, 16, 12);
+    font-family: Jura;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 31px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-transform: uppercase;
+  }
+  & .service__text {
+    font-family: Jura;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 130%;
+    letter-spacing: 0%;
+    text-transform: uppercase;
+    & a {
+      text-decoration: none;
+      font-size: 20px;
+      color: black;
+      transition: all 0.3s ease-in-out;
+      &:hover {
+        transition: all 0.3s ease-in-out;
+        color: darkgreen;
+      }
+    }
+  }
+}

@@ -2,15 +2,21 @@
   <div class="header">
     <div class="header__logo"><img src="assets/images/logo.png" /></div>
     <div class="header__navigation">
-      <a href="" class="header__navigation-item" routerLink="/">Главная</a>
-      <a href="" class="header__navigation-item">О нас</a>
-      <a href="" class="header__navigation-item">Проекты</a>
-      <a href="" class="header__navigation-item">Услуги</a>
-      <a href="" class="header__navigation-item" routerLink="annex"
-        >Пристройки</a
+      <a routerLink="/" class="header__navigation-item">Главная</a>
+      <a (click)="scrollToAnchor('about')" class="header__navigation-item"
+        >О нас</a
       >
-      <a href="" class="header__navigation-item" routerLink="pricing">Цены</a>
-      <a href="" class="header__navigation-item">Контакты</a>
+      <a (click)="scrollToAnchor('projects')" class="header__navigation-item"
+        >Проекты</a
+      >
+      <a (click)="scrollToAnchor('services')" class="header__navigation-item"
+        >Услуги</a
+      >
+      <a routerLink="annex" class="header__navigation-item">Пристройки</a>
+      <a routerLink="pricing" class="header__navigation-item">Цены</a>
+      <a (click)="scrollToAnchor('contacts')" class="header__navigation-item"
+        >Контакты</a
+      >
     </div>
     <div class="header__phone"><a href="tel:+79999999999">+79999999999</a></div>
   </div>
