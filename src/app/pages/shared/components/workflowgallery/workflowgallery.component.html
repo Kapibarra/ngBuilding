@@ -62,5 +62,25 @@
         </div>
       </ng-template>
     </p-carousel>
+    <p-carousel
+      [value]="gallery04"
+      [numVisible]="3"
+      [numScroll]="1"
+      [autoplayInterval]="3000"
+      [responsiveOptions]="responsiveOptions"
+    >
+      <ng-template pTemplate="header">
+        <div class="gallery__title">Ландшафтный дизайн</div>
+      </ng-template>
+      <ng-template let-product pTemplate="item">
+        <div class="product-item">
+          <div class="product-item-content">
+            <div class="mb-3">
+              <img src="{{ product.imageSrc }}" class="product-image" />
+            </div>
+          </div>
+        </div>
+      </ng-template>
+    </p-carousel>
   </div>
 </div>

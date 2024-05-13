@@ -92,6 +92,80 @@ export class WorkflowgalleryComponent implements OnInit {
       imageSrc: 'assets/images/projects/workflowinner/18.JPG',
     },
   ];
+  gallery04 = [
+    {
+      id: 1,
+      imageSrc: 'assets/images/projects/workflowlandscape/01.JPG',
+    },
+    {
+      id: 2,
+      imageSrc: 'assets/images/projects/workflowlandscape/02.JPG',
+    },
+    {
+      id: 3,
+      imageSrc: 'assets/images/projects/workflowlandscape/03.JPG',
+    },
+    {
+      id: 4,
+      imageSrc: 'assets/images/projects/workflowlandscape/04.JPG',
+    },
+    {
+      id: 5,
+      imageSrc: 'assets/images/projects/workflowlandscape/05.JPG',
+    },
+    {
+      id: 6,
+      imageSrc: 'assets/images/projects/workflowlandscape/06.JPG',
+    },
+    {
+      id: 7,
+      imageSrc: 'assets/images/projects/workflowlandscape/07.JPG',
+    },
+    {
+      id: 8,
+      imageSrc: 'assets/images/projects/workflowlandscape/08.JPG',
+    },
+    {
+      id: 9,
+      imageSrc: 'assets/images/projects/workflowlandscape/09.JPG',
+    },
+    {
+      id: 10,
+      imageSrc: 'assets/images/projects/workflowlandscape/10.JPG',
+    },
+    {
+      id: 11,
+      imageSrc: 'assets/images/projects/workflowlandscape/11.JPG',
+    },
+    {
+      id: 12,
+      imageSrc: 'assets/images/projects/workflowlandscape/12.JPG',
+    },
+    {
+      id: 13,
+      imageSrc: 'assets/images/projects/workflowlandscape/13.JPG',
+    },
+    {
+      id: 14,
+      imageSrc: 'assets/images/projects/workflowlandscape/14.jpg',
+    },
+    {
+      id: 15,
+      imageSrc: 'assets/images/projects/workflowlandscape/15.JPG',
+    },
+    {
+      id: 16,
+      imageSrc: 'assets/images/projects/workflowlandscape/16.JPG',
+    },
+    {
+      id: 17,
+      imageSrc: 'assets/images/projects/workflowlandscape/17.jpg',
+    },
+    {
+      id: 18,
+      imageSrc: 'assets/images/projects/workflowlandscape/18.jpg',
+    },
+  ];
   responsiveOptions = [
     {
       breakpoint: '1199px',
