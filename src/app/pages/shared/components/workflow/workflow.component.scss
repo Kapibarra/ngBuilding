@@ -2,7 +2,7 @@
   width: 100%;
   max-width: 1400px;
   margin: 0 auto;
-  .workflow__title {
+  .workflow__main-title {
     color: rgb(56, 56, 56);
     font-family: Jura;
     font-size: 48px;
@@ -32,9 +32,9 @@
       .workflow__id {
         color: rgb(0, 142, 45);
         font-family: Jura;
-        font-size: 130px;
+        font-size: 80px;
         font-weight: 400;
-        line-height: 154px;
+        line-height: 100px;
         letter-spacing: 0%;
         text-align: left;
         width: 150px;

@@ -30,6 +30,7 @@ import { Project02Component } from './pages/project02/project02.component';
 import { Project03Component } from './pages/project03/project03.component';
 import { Project04Component } from './pages/project04/project04.component';
 import { Project05Component } from './pages/project05/project05.component';
+import { ProjectsMainComponent } from './pages/projects/projects.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -56,6 +57,7 @@ import { Project05Component } from './pages/project05/project05.component';
     Project03Component,
     Project04Component,
     Project05Component,
+    ProjectsMainComponent,
   ],
   imports: [
     BrowserModule,

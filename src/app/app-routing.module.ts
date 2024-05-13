@@ -8,10 +8,12 @@ import { Project02Component } from './pages/project02/project02.component';
 import { Project03Component } from './pages/project03/project03.component';
 import { Project04Component } from './pages/project04/project04.component';
 import { Project05Component } from './pages/project05/project05.component';
+import { ProjectsMainComponent } from './pages/projects/projects.component';
 const routes: Routes = [
   { path: '', component: MainPageComponent }, // маршрут для главной страницы
   { path: 'annex', component: AnnexComponent }, // маршрут для пристроек
   { path: 'pricing', component: PricingComponent }, // маршрут для цены
+  { path: 'projects', component: ProjectsMainComponent }, // маршрут для цены
   { path: 'project01', component: Project01Component }, // маршрут для проекта 1
   { path: 'project02', component: Project02Component }, // маршрут для проекта 2
   { path: 'project03', component: Project03Component }, // маршрут для проекта 3
