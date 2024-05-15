@@ -12,8 +12,12 @@
       align-items: flex-end;
       justify-content: flex-end;
       margin-bottom: 30px;
+      @media (max-width: 428px) {
+        flex-wrap: wrap;
+      }
       img {
-        // стили для изображений в верхней галерее
+        width: 100%;
+        max-width: 600px;
       }
     }
 
@@ -87,8 +91,13 @@
         gap: 20px;
         max-width: 700px;
         margin-top: 100px;
-        .content__img {
-          // стили для изображений в блоке контента
+        @media (max-width: 428px) {
+          justify-content: center;
+          margin-top: 30px;
+          & .content__img {
+            width: 100%;
+            max-width: 160px;
+          }
         }
       }
     }

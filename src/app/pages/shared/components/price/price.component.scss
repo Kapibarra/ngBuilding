@@ -26,7 +26,10 @@
       justify-content: space-between;
       flex-wrap: wrap;
       align-items: center;
-
+      @media (max-width: 428px) {
+        background: white;
+        justify-content: center;
+      }
       .price__item-title {
         color: rgb(0, 0, 0);
         font-family: Jura;
@@ -36,6 +39,12 @@
         letter-spacing: 20%;
         text-align: left;
         max-width: 870px;
+        @media (max-width: 428px) {
+          font-size: 32px;
+          font-weight: 700;
+          line-height: 80%;
+          text-align: center;
+        }
       }
 
       .price__list {
@@ -47,6 +56,9 @@
         text-align: right;
         padding-inline-start: 0px;
         list-style: none;
+        @media (max-width: 428px) {
+          text-align: center;
+        }
       }
 
       .price__list-item {
@@ -92,6 +104,11 @@
 }
 .bg01 {
   background-image: url(../../../../../assets/icons/pricebg01.png);
+  @media (max-width: 428px) {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 80%;
+  }
 }
 .bg02 {
   background-image: url(../../../../../assets/icons/pricebg02.png);

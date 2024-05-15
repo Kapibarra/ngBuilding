@@ -2,7 +2,11 @@
   /* black */
   margin-top: 30px;
   background: rgb(15, 16, 12);
+
   width: 100%;
+  @media (max-width: 428px) {
+    border-radius: 24px;
+  }
   .footer {
     width: 100%;
     max-width: 1400px;
@@ -14,7 +18,14 @@
     flex-wrap: wrap;
     gap: 30px;
     justify-content: space-between;
+    @media (max-width: 428px) {
+      justify-content: center;
+      flex-direction: column;
+    }
     & .footer__logo {
+      @media (max-width: 428px) {
+        margin: 0 auto;
+      }
       img {
         // стили для логотипа
       }
@@ -26,6 +37,10 @@
       flex-wrap: wrap;
       gap: 5px;
       align-items: flex-start;
+      @media (max-width: 428px) {
+        align-items: center;
+        flex-direction: column;
+      }
       .footer__navigation-item {
         color: rgb(254, 255, 252);
         font-family: Jura;
@@ -43,6 +58,10 @@
       flex-direction: column;
       gap: 10px;
       align-items: flex-start;
+      @media (max-width: 428px) {
+        align-items: center;
+        flex-direction: column;
+      }
       & .contacts__link {
         color: rgb(254, 255, 252);
         font-family: Jura;

@@ -22,8 +22,10 @@
     }
 
     .product-image {
-      width: 360px;
-      height: 240px;
+      width: 100%; /* Изменяем ширину на 100% */
+      height: auto; /* Автоматический расчет высоты для поддержки соотношения сторон */
+      max-width: 320px;
+      max-height: 400px;
       object-fit: cover;
       box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
     }

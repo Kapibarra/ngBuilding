@@ -178,7 +178,7 @@ export class WorkflowgalleryComponent implements OnInit {
       numScroll: 1,
     },
     {
-      breakpoint: '767px',
+      breakpoint: '428px',
       numVisible: 1,
       numScroll: 1,
     },
