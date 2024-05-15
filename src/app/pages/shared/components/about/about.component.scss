@@ -25,6 +25,9 @@
       line-height: 130%;
       letter-spacing: 20%;
       text-align: left;
+      @media (max-width: 428px) {
+        line-height: 100%;
+      }
     }
 
     &__subtitle {
@@ -40,12 +43,19 @@
       max-width: 340px;
       margin-left: auto;
       margin-bottom: 30px;
+      @media (max-width: 428px) {
+        text-align: left;
+        margin-left: unset;
+      }
     }
 
     &__content {
       display: flex;
       justify-content: space-between;
-
+      flex-wrap: wrap;
+      @media (max-width: 428px) {
+        justify-content: center;
+      }
       &-title {
         color: rgb(56, 56, 56);
         font-family: Jura;

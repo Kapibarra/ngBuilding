@@ -8,6 +8,9 @@
     flex-wrap: nowrap;
     justify-content: space-between;
     align-items: center;
+    @media (max-width: 428px) {
+      align-items: flex-start;
+    }
     &__logo {
       img {
         // стили для логотипа
@@ -56,4 +59,102 @@
       }
     }
   }
+}
+.mobile-menu {
+  z-index: 9999;
+  right: 20px;
+  cursor: pointer;
+  margin-top: 20px;
+  margin-right: 20px;
+}
+
+.burger {
+  width: 30px;
+  height: 3px;
+  display: block;
+  background-color: #333;
+  margin: 6px 0;
+  transition: 0.4s;
+  border-radius: 10px;
+  position: relative; // Добавлено
+}
+
+.burger::before,
+.burger::after {
+  content: ""; // Добавлено
+  display: block;
+  width: 30px;
+  height: 3px;
+  background-color: #333;
+  margin: 6px 0;
+  transition: 0.4s;
+  border-radius: 10px;
+  position: absolute; // Изменено
+}
+
+.burger::before {
+  top: -10px; // Изменено
+}
+
+.burger::after {
+  bottom: -10px; // Изменено
+}
+
+.open .burger {
+  background-color: #ffffff;
+}
+
+.open .burger::before {
+  transform: rotate(-45deg); // Изменено
+}
+
+.open .burger::after {
+  transform: rotate(45deg) translate(-5px, -5px); // Изменено
+}
+
+.menu {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #f9f9f9;
+  z-index: 9998;
+  transition: transform 0.3s ease-in-out;
+}
+
+.menu.open {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transform: translateY(0%);
+  padding-top: 50px;
+}
+
+.menu a {
+  display: block;
+  padding: 20px;
+  text-decoration: none;
+  color: #333;
+  font-size: 18px;
+  transition: background-color 0.3s;
+  color: rgb(0, 0, 0);
+  font-family: Jura;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 120%;
+  letter-spacing: 0%;
+  text-align: left;
+  text-transform: uppercase;
+  text-decoration: none;
+  transition: color 0.3s ease; /* добавляем плавный переход для цвета текста */
+  &:hover {
+    transition: color 0.3s ease; /* добавляем плавный переход для цвета текста */
+    color: rgb(114, 114, 114); /* изменяем цвет текста при наведении */
+  }
+}
+
+.menu a:hover {
+  background-color: #ddd;
 }

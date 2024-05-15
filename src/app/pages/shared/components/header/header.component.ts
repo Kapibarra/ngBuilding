@@ -8,6 +8,8 @@ import { Router } from '@angular/router';
   styleUrls: ['./header.component.scss'],
 })
 export class HeaderComponent implements OnInit {
+  mobile: boolean = false;
+  isMenuOpen = false;
   constructor(
     private viewportscroller: ViewportScroller,
     private router: Router
@@ -15,7 +17,16 @@ export class HeaderComponent implements OnInit {
   scrollToTop(): void {
     window.scrollTo({ top: 0, behavior: 'smooth' });
   }
-  ngOnInit(): void {}
+  ngOnInit(): void {
+    if (window.screen.width <= 968) {
+      this.mobile = true;
+      console.log(this.mobile);
+    }
+  }
+
+  toggleMenu() {
+    this.isMenuOpen = !this.isMenuOpen;
+  }
   scrollToAnchor(elementId: string): void {
     this.router.navigateByUrl('/').then(() => {
       // Перенаправление на главную страницу
