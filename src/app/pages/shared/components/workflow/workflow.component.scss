@@ -29,10 +29,10 @@
       align-items: center;
       transition: all 0.3s ease-in-out;
       border-radius: 0px;
-      @media (max-width: 1428px) {
-        justify-content: center;
+      @media (max-width: 1366px) {
+        justify-content: space-between;
         gap: 10px;
-        flex-direction: column;
+        flex-direction: row;
         padding-bottom: 10px;
       }
       &:hover {

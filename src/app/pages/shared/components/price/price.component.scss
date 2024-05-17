@@ -16,6 +16,9 @@
     text-align: left;
     margin-top: 60px;
     margin-bottom: 30px;
+    @media (max-width: 1366px) {
+      text-align: center;
+    }
   }
   .price {
     display: flex;

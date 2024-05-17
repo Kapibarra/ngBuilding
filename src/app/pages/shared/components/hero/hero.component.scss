@@ -10,7 +10,7 @@
     flex-direction: row;
     justify-content: space-between;
     flex-wrap: wrap;
-    @media (max-width: 1428px) {
+    @media (max-width: 1365px) {
       flex-direction: column;
       align-content: center;
       justify-content: center;
@@ -30,6 +30,11 @@
         line-height: 92%;
         letter-spacing: -3%;
         text-align: left;
+        @media (max-width: 1366px) {
+          font-size: 32px;
+          max-width: 600px;
+          margin-top: 150px;
+        }
         @media (max-width: 428px) {
           margin-top: 30px;
         }
