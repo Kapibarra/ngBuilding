@@ -1,6 +1,9 @@
 .benefits__wrapper {
   width: 100%;
   max-width: 1400px;
+  box-sizing: border-box;
+  padding-left: 10px;
+  padding-right: 10px;
   margin: 0 auto;
   .benefits {
     display: flex;
@@ -9,7 +12,9 @@
     gap: 10px;
     margin-top: 60px;
     margin-bottom: 60px;
-
+    @media (max-width: 1428px) {
+      justify-content: center;
+    }
     & .benefits__item {
       box-sizing: border-box;
       border: 1px solid rgb(56, 56, 56);

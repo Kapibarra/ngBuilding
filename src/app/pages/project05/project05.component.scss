@@ -21,6 +21,9 @@
 .project {
   width: 100%;
   max-width: 1400px;
+  box-sizing: border-box;
+  padding-left: 10px;
+  padding-right: 10px;
   margin: 0 auto;
   & .project__title {
     color: rgb(15, 16, 12);

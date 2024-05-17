@@ -3,6 +3,9 @@
   max-width: 1400px;
   margin: 0 auto;
   margin-top: 60px;
+  box-sizing: border-box;
+  padding-left: 10px;
+  padding-right: 10px;
   margin-bottom: 60px;
   .contacts {
     display: flex;

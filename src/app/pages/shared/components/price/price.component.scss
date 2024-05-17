@@ -3,6 +3,9 @@
   max-width: 1400px;
   margin: 0 auto;
   margin-top: 30px;
+  box-sizing: border-box;
+  padding-left: 10px;
+  padding-right: 10px;
   .price__title {
     color: rgb(15, 16, 12);
     font-family: Jura;
@@ -26,9 +29,11 @@
       justify-content: space-between;
       flex-wrap: wrap;
       align-items: center;
-      @media (max-width: 428px) {
+      @media (max-width: 1428px) {
         background: white;
         justify-content: center;
+        flex-direction: column;
+        gap: 15px;
       }
       .price__item-title {
         color: rgb(0, 0, 0);
@@ -39,6 +44,12 @@
         letter-spacing: 20%;
         text-align: left;
         max-width: 870px;
+        @media (max-width: 1428px) {
+          font-size: 42px;
+          font-weight: 700;
+          line-height: 80%;
+          text-align: center;
+        }
         @media (max-width: 428px) {
           font-size: 32px;
           font-weight: 700;

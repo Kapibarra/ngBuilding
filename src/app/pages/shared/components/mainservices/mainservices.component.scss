@@ -2,6 +2,9 @@
   width: 100%;
   max-width: 1400px;
   margin: 0 auto;
+  box-sizing: border-box;
+  padding-left: 10px;
+  padding-right: 10px;
   & .services__title {
     color: rgb(15, 16, 12);
     font-family: Jura;
@@ -32,6 +35,9 @@
       display: flex;
       flex-direction: column;
       gap: 10px;
+      @media (max-width: 1428px) {
+        max-width: 320px;
+      }
       &.green {
         background: rgb(201, 255, 218);
         color: rgb(15, 16, 12) !important;
@@ -171,6 +177,9 @@
   gap: 20px;
   width: 100%;
   max-width: 920px;
+  @media (max-width: 1428px) {
+    max-width: 680px;
+  }
 }
 .services__image {
   width: 100%;

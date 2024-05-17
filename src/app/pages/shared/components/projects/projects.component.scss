@@ -2,6 +2,9 @@
   width: 100%;
   max-width: 1400px;
   margin: 0 auto;
+  box-sizing: border-box;
+  padding-left: 10px;
+  padding-right: 10px;
   .projects {
     margin-top: 60px;
     &__top {

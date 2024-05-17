@@ -1,6 +1,9 @@
 .gallery {
   width: 100%;
   max-width: 1400px;
+  box-sizing: border-box;
+  padding-left: 10px;
+  padding-right: 10px;
   margin: 0 auto;
   & .gallery__title {
     color: rgb(15, 16, 12);
@@ -23,11 +26,14 @@
 
     .product-image {
       width: 100%; /* Изменяем ширину на 100% */
-      height: auto; /* Автоматический расчет высоты для поддержки соотношения сторон */
+      height: 450px; /* Автоматический расчет высоты для поддержки соотношения сторон */
       max-width: 320px;
       max-height: 400px;
       object-fit: cover;
       box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+      @media (max-width: 428px) {
+        height: 350px; /* Автоматический расчет высоты для поддержки соотношения сторон */
+      }
     }
   }
 }
