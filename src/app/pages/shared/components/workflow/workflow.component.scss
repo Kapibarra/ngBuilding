@@ -78,7 +78,10 @@
       }
 
       .workflow__arrow-icon {
-        @media (max-width: 1428px) {
+        @media (max-width: 1366px) {
+          transform: rotate(0deg);
+        }
+        @media (max-width: 1365px) {
           transform: rotate(90deg);
         }
         img {
