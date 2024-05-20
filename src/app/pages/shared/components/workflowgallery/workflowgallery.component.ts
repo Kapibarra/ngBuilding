@@ -24,10 +24,6 @@ export class WorkflowgalleryComponent implements OnInit {
       imageSrc: 'assets/images/projects/workflowannex/23.jpg',
     },
     {
-      id: 29,
-      imageSrc: 'assets/images/projects/workflowannex/29.jpg',
-    },
-    {
       id: 33,
       imageSrc: 'assets/images/projects/workflowannex/33.jpg',
     },
@@ -85,67 +81,67 @@ export class WorkflowgalleryComponent implements OnInit {
   gallery03 = [
     {
       id: 1,
-      imageSrc: 'assets/images/projects/workflowinner/1.JPG',
+      imageSrc: 'assets/images/projects/workflowinner/01.JPG',
     },
     {
       id: 2,
-      imageSrc: 'assets/images/projects/workflowinner/2.jpg',
+      imageSrc: 'assets/images/projects/workflowinner/02.JPG',
     },
     {
       id: 3,
-      imageSrc: 'assets/images/projects/workflowinner/3.jpg',
+      imageSrc: 'assets/images/projects/workflowinner/03.JPG',
     },
     {
       id: 4,
-      imageSrc: 'assets/images/projects/workflowinner/4.JPG',
+      imageSrc: 'assets/images/projects/workflowinner/04.JPG',
     },
     {
       id: 5,
-      imageSrc: 'assets/images/projects/workflowinner/5.JPG',
+      imageSrc: 'assets/images/projects/workflowinner/05.JPG',
     },
     {
       id: 6,
-      imageSrc: 'assets/images/projects/workflowinner/6.jpg',
+      imageSrc: 'assets/images/projects/workflowinner/06.JPG',
     },
     {
       id: 7,
-      imageSrc: 'assets/images/projects/workflowinner/7.JPG',
+      imageSrc: 'assets/images/projects/workflowinner/07.JPG',
     },
     {
       id: 8,
-      imageSrc: 'assets/images/projects/workflowinner/8.jpg',
+      imageSrc: 'assets/images/projects/workflowinner/08.jpg',
     },
     {
       id: 9,
-      imageSrc: 'assets/images/projects/workflowinner/9.JPG',
+      imageSrc: 'assets/images/projects/workflowinner/09.jpg',
     },
     {
       id: 10,
-      imageSrc: 'assets/images/projects/workflowinner/10.JPG',
+      imageSrc: 'assets/images/projects/workflowinner/010.jpg',
     },
     {
       id: 11,
-      imageSrc: 'assets/images/projects/workflowinner/11.jpg',
+      imageSrc: 'assets/images/projects/workflowinner/011.jpg',
     },
     {
       id: 12,
-      imageSrc: 'assets/images/projects/workflowinner/12.JPG',
+      imageSrc: 'assets/images/projects/workflowinner/012.JPG',
     },
     {
       id: 13,
-      imageSrc: 'assets/images/projects/workflowinner/13.jpg',
+      imageSrc: 'assets/images/projects/workflowinner/013.jpg',
     },
     {
       id: 14,
-      imageSrc: 'assets/images/projects/workflowinner/14.JPG',
+      imageSrc: 'assets/images/projects/workflowinner/014.jpg',
     },
     {
       id: 15,
-      imageSrc: 'assets/images/projects/workflowinner/15.jpg',
+      imageSrc: 'assets/images/projects/workflowinner/015.jpg',
     },
     {
       id: 16,
-      imageSrc: 'assets/images/projects/workflowinner/16.jpg',
+      imageSrc: 'assets/images/projects/workflowinner/016.jpg',
     },
   ];
   gallery04 = [
