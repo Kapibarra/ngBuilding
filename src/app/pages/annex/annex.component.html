@@ -1,69 +1,73 @@
-<div class="annex__title">Пристройки</div>
-<p class="annex__description">
-  Довольно часто, подумав над планировкой дома, клиент понимает, что площади под
-  какие-то цели не хватает. Например, на первом этаже хочется иметь более
-  просторную гостиную-столовую, где сможет разместиться вся семья в любое время
-  года. Или разместить кухню в отдельном помещении, где у хозяйки есть
-  возможность готовить и одновременно наслаждаться видом на сад через панорамные
-  окна. Выходом может стать строительство пристройки, которая станет
-  неотъемлемой частью дома и не нарушит архитектурный стиль здания.
-  Дополнительные метры дадут возможность сделать планировку дома более
-  продуманной и функциональной. Благодаря технологиям, которые мы используем в
-  строительстве пристроек, Вы получите теплый монолитный фундамент, прочные
-  кирпичные стены, позволяющие использовать это помещение в любое время года и
-  надежную утепленную кровлю. Пристройку можно сделать в два этажа: с одной
-  стороны дома или Г-образную, позволяющую разместить еще и техническое
-  помещение или гараж. Проект обсуждается индивидуально. На все строения
-  предоставляется гарантия.
-</p>
-<div class="gallery">
-  <p-carousel
-    [value]="gallery01"
-    [numVisible]="3"
-    [numScroll]="1"
-    [autoplayInterval]="3000"
-    [responsiveOptions]="responsiveOptions"
-  >
-    <ng-template pTemplate="header">
-      <div class="gallery__title">Строительство пристроек</div>
-    </ng-template>
-    <ng-template let-product pTemplate="item">
-      <div class="product-item">
-        <div class="product-item-content">
-          <div class="mb-3">
-            <img src="{{ product.imageSrc }}" class="product-image" />
+<div class="annex__wrapper">
+  <div class="annex__title">Пристройки</div>
+  <p class="annex__description">
+    Довольно часто, подумав над планировкой дома, клиент понимает, что площади
+    под какие-то цели не хватает. Например, на первом этаже хочется иметь более
+    просторную гостиную-столовую, где сможет разместиться вся семья в любое
+    время года. Или разместить кухню в отдельном помещении, где у хозяйки есть
+    возможность готовить и одновременно наслаждаться видом на сад через
+    панорамные окна. Выходом может стать строительство пристройки, которая
+    станет неотъемлемой частью дома и не нарушит архитектурный стиль здания.
+    Дополнительные метры дадут возможность сделать планировку дома более
+    продуманной и функциональной. Благодаря технологиям, которые мы используем в
+    строительстве пристроек, Вы получите теплый монолитный фундамент, прочные
+    кирпичные стены, позволяющие использовать это помещение в любое время года и
+    надежную утепленную кровлю. Пристройку можно сделать в два этажа: с одной
+    стороны дома или Г-образную, позволяющую разместить еще и техническое
+    помещение или гараж. Проект обсуждается индивидуально. На все строения
+    предоставляется гарантия.
+  </p>
+  <div class="gallery">
+    <p-carousel
+      [value]="gallery01"
+      [numVisible]="3"
+      [numScroll]="1"
+      [autoplayInterval]="3000"
+      [responsiveOptions]="responsiveOptions"
+    >
+      <ng-template pTemplate="header">
+        <div class="gallery__title">Строительство пристроек</div>
+      </ng-template>
+      <ng-template let-product pTemplate="item">
+        <div class="product-item">
+          <div class="product-item-content">
+            <div class="mb-3">
+              <img src="{{ product.imageSrc }}" class="product-image" />
+            </div>
           </div>
         </div>
-      </div>
-    </ng-template>
-  </p-carousel>
-</div>
-
-<div class="price__wrapper">
-  <div class="price__title">Цены на работу</div>
-  <div class="price">
-    <div class="price__item">
-      <div class="price__item-title">Строительство пристроек из поротерма</div>
-      <ul class="price__list">
-        <li class="price__list-item">
-          Более 25м2 - от <span class="highlighted">100 000</span>р/м
-        </li>
-        <li class="price__list-item">
-          Более 50м2 - от <span class="highlighted">75 000</span>р/м
-        </li>
-        <li class="price__list-item">
-          Менее 25м2 - от <span class="highlighted">110 000</span>р/м
-        </li>
-        <li class="price__list-item">До 150м2 - Индивидуально</li>
-      </ul>
-    </div>
-    <p class="price__description">
-      При наличии проекта, делаем индивидуальный расчет. Осуществляем
-      предварительный выезд на объект для замеров и согласования технических
-      вопросов.
-    </p>
-    <div class="hero__button">связаться с нами</div>
+      </ng-template>
+    </p-carousel>
   </div>
+
+  <div class="price__wrapper">
+    <div class="price__title">Цены на работу</div>
+    <div class="price">
+      <div class="price__item">
+        <div class="price__item-title">
+          Строительство пристроек из поротерма
+        </div>
+        <ul class="price__list">
+          <li class="price__list-item">
+            Более 25м2 - от <span class="highlighted">100 000</span>р/м
+          </li>
+          <li class="price__list-item">
+            Более 50м2 - от <span class="highlighted">75 000</span>р/м
+          </li>
+          <li class="price__list-item">
+            Менее 25м2 - от <span class="highlighted">110 000</span>р/м
+          </li>
+          <li class="price__list-item">До 150м2 - Индивидуально</li>
+        </ul>
+      </div>
+      <p class="price__description">
+        При наличии проекта, делаем индивидуальный расчет. Осуществляем
+        предварительный выезд на объект для замеров и согласования технических
+        вопросов.
+      </p>
+      <div class="hero__button">связаться с нами</div>
+    </div>
+  </div>
+  <app-mainservices></app-mainservices>
+  <app-contacts></app-contacts>
 </div>
-<app-mainservices></app-mainservices>
-<app-contacts></app-contacts>
